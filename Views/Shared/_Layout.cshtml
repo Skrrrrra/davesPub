@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		@await Html.PartialAsync("HeadPartial")
+	</head>
+	<body class="back">
+	<div>
+		 @await Html.PartialAsync("NavbarPartial")
+				
+			
+@*			@await Html.PartialAsync("FooterPartial")*@
+			</div>
+			<div>
+					@RenderBody()
+				</div>
+	
+	</body>
+</html>

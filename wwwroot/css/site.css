@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: orange;
+    height: 100px;
+    position: static;
+}
+
+.head {
+    list-style-type: none;
+    display: inline;
+    margin: 50px;
+    font-family: Pompadur;
+    position: static;
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: Pompadur;
+    src: url(/fonts/Tkachev\ -\ Lugatype.otf);
+}
+
+.maintext {
+    color: white;
+    font-size: 50px;
+    margin-top: 50%;
+    margin-left: 50%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 60px;
+    color: black;
+    line-height: 80px;
+}
+
+p {
+    margin-left: 810px;
+    margin-top: 540px;
+}
+
+body {
+    overflow-x: hidden;
+    background-image:url(/images)
+}
+
+footer {
+    background-color: aliceblue;
+    width: 1920px;
+    height: 200px;
+    align-items: center;
+}
+
+footer {
+    flex: 0 0 auto;
+    background: #fff;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.foot {
+    display: inline;
+    margin: 20px;
+}
+
+.mainpage {
+    width: 1920px;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-image: url("https://static.gdebar.ru/data/app/bar/img/gallery/6390/185207.jpg");
+}
+
+.mainpagetext {
+    color: white;
+    font-size: 20px;
+}
