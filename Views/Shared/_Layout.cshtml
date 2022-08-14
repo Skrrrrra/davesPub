@@ -1,18 +1,26 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="/css/site.css" />
 		@await Html.PartialAsync("HeadPartial")
 	</head>
-	<body class="back">
-	<div>
-		 @await Html.PartialAsync("NavbarPartial")
-				
-			
-@*			@await Html.PartialAsync("FooterPartial")*@
-			</div>
-			<div>
-					@RenderBody()
-				</div>
-	
+	<body>
+		
+
+
+		<div>
+			@await Html.PartialAsync("NavbarPartial")
+		</div>
+
+
+
+		<div>
+			@RenderBody()
+		</div>
+		<div>
+			@await Html.PartialAsync("FooterPartial");
+		</div>
+		
+
 	</body>
 </html>

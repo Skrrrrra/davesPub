@@ -1,4 +1,60 @@
-﻿@{
+﻿@model IEnumerable<davesPub.Models.mainPageItem>
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@{
     Layout = "_Layout";
 }
-hi
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body class="background">
+    <div class="inline3">
+      <a asp-controller="Home" asp-action="HardDrinks">
+        <div class="itemCard"> 
+          <div>
+            <img class="imgOnCard" src="/images/strong.jpg"  />
+          </div>
+          <div class="titleCard">
+            <a class="title">HardDrinks</a>
+          </div>
+          <div class="priceCard">
+            <a class="price"></a>
+          </div>
+        </div>
+      </a>
+
+      <a asp-controller="Home" asp-action="LightDrinks">
+        <div class="itemCard">
+          <div>
+            <img class="imgOnCard" src="/images/Snacks.jpg" />
+          </div>
+          <div class="titleCard">
+            <a class="title">LightDrinks</a>
+          </div>
+          <div class="priceCard">
+            <a class="price"></a>
+          </div>
+        </div>
+      </a>
+
+      <a asp-controller="Home" asp-action="Snacks">
+        <div class="itemCard">
+          <div>
+            <img class="imgOnCard" src="/images/Snacks.jpg"  />
+          </div>
+          <div class="titleCard">
+            <a class="title">Snacks</a>
+          </div>
+
+          <div class="priceCard">
+            <a class="price"></a>
+          </div>
+        </div>
+      </a>
+
+
+    </div>
+</body>
+</html>

@@ -3,16 +3,18 @@
     padding: 0;
 }
 
+
 header {
     background-color: orange;
     height: 100px;
     position: static;
+    border: 1px solid black;
 }
 
 .head {
     list-style-type: none;
     display: inline;
-    margin: 50px;
+    margin: 40px;
     font-family: Pompadur;
     position: static;
     vertical-align: middle;
@@ -23,60 +25,137 @@ header {
     src: url(/fonts/Tkachev\ -\ Lugatype.otf);
 }
 
-.maintext {
-    color: white;
-    font-size: 50px;
-    margin-top: 50%;
-    margin-left: 50%;
-}
-
-a {
+.headerMenu {
     text-decoration: none;
     font-size: 60px;
     color: black;
     line-height: 80px;
 }
 
-p {
-    margin-left: 810px;
-    margin-top: 540px;
+.photo {
+    background-image: url("/index/images/Dave.jpg");
+    width: 429px;
+    height: 640px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-radius: 100px;
 }
 
-body {
-    overflow-x: hidden;
-    background-image:url(/images)
+.infopage {
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 80px;
 }
+
+#DavePhoto {
+    position: absolute;
+    left: 0;
+    width: 33%;
+}
+
+#textInfo {
+    position: absolute;
+    right: 0;
+    width: 67%;
+    font-family: Pompadur;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Pompadur;
+}
+
+.history {
+    font-size: 25px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+
+.itemCard {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 200px;
+    font-family: Pompadur;
+}
+
+.imgOnCard {
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.titleCard {
+    margin-top: 5px;
+    font-family: Pompadur;
+    font-size: 50px;
+}
+
+.priceCard {
+    font-size: 20px;
+}
+
 
 footer {
-    background-color: aliceblue;
+    background-color: white;
     width: 1920px;
-    height: 200px;
-    align-items: center;
-}
-
-footer {
-    flex: 0 0 auto;
-    background: #fff;
     height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    text-align: center;
+    line-height: 270px;
+    font-family: Pompadur;
+    font-size: 100px;
 }
 
-.foot {
+.body {
+    background-color: orange;
+    width: 1920px;
+    overflow-x: hidden;
+    height: 1080px;
+}
+
+.inline2 {
+    margin-left: 250px;
     display: inline;
-    margin: 20px;
+    list-style-type: none;
 }
 
-.mainpage {
+.inline {
+    display: inline;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.inline3 {
+    display: inline-flex;
+    margin-bottom: 200px;
+    margin-top: 80px;
+}
+
+.firstroll {
+    background-image: url("../images/back.jpg");
+    height: 1080px;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
+.secondroll {
+    margin-top: 1080px;
+    width: 1920px;
+    height: 900px;
+    background-color: orange;
+    text-align: left;
+}
+
+.background {
+    background-color: orange;
     width: 1920px;
     height: 1080px;
-    background-repeat: no-repeat;
-    background-image: url("https://static.gdebar.ru/data/app/bar/img/gallery/6390/185207.jpg");
-}
-
-.mainpagetext {
-    color: white;
-    font-size: 20px;
 }
